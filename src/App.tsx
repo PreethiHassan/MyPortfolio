@@ -49,8 +49,6 @@ function App() {
     return skills.filter((skill) => skill.category === selectedCategory);
   }, [selectedCategory]);
 
-  const year = new Date().getFullYear();
-
   return (
     <>
       <header className="site-header">
