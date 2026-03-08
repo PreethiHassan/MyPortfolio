@@ -205,11 +205,7 @@ function App() {
 
         <section id="projects" className="container section">
           <h2>Projects</h2>
-          <p className="subtle">
-            You can add personal and freelance projects here later. I pre-filled
-            your academic highlights for now.
-          </p>
-          <div className="project-grid">
+                   <div className="project-grid">
             <article className="card">
               <h3>Camouflage Surveillance Robot</h3>
               <p>
@@ -238,7 +234,6 @@ function App() {
 
         <section id="contact" className="container section contact">
           <h2>Let’s connect</h2>
-          <p>If you’re hiring for frontend roles, I’d love to talk.</p>
           <div className="contact-links">
             <a href="mailto:preethiiyengar5@gmail.com">
               preethiiyengar5@gmail.com
@@ -262,9 +257,9 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <div className="container">
-          <p>© {year} Preethi G. Built with React and TypeScript.</p>
-        </div>
+        {/* <div className="container">
+          <p>© {year} Preethi G. </p>
+        </div> */}
       </footer>
     </>
   );
