@@ -78,7 +78,12 @@ function App() {
             <a href="#skills" onClick={() => setIsMenuOpen(false)}>
               Skills
             </a>
-            <a href="#projects" onClick={() => setIsMenuOpen(false)}>
+            <a
+              // href="#projects"
+              onClick={() =>
+                (window.location.href = "https://todo.preethig.me")
+              }
+            >
               Projects
             </a>
             <a href="#contact" onClick={() => setIsMenuOpen(false)}>
@@ -203,7 +208,7 @@ function App() {
 
         <section id="projects" className="container section">
           <h2>Projects</h2>
-                   <div className="project-grid">
+          <div className="project-grid">
             <article className="card">
               <h3>Camouflage Surveillance Robot</h3>
               <p>
